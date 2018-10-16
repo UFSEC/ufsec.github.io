@@ -346,14 +346,22 @@ img { max-width: 100%; }
   margin-bottom: 0px;
 }
 
+/*--------- B A N N E R ---------*/
+@media screen and (min-width: 740px) {
+    .banner {
+      height: 70vh;
+      background: url("sec.jpeg");
+      background-size: cover;
+    }
+  }
 
-
-/* Carosuel image size */
-.carousel img {
-  width: auto;
-  height: 500px;
-  max-height: 500px;
-}
+  @media screen and (max-width: 739px) {
+    .banner {
+      height: 70vh;
+      background: url("sec2.jpg");
+      background-size: cover;
+    }
+  }
 
 /* Officers */
 .officers img {
@@ -364,11 +372,9 @@ img { max-width: 100%; }
   margin: 0 auto;
 }
 
-.carousel {
-  margin-bottom: 2%;
-}
 /* About Text */
 .about-text {
+  margin-top: 100px;
   font-size: 18px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 3%
@@ -380,14 +386,6 @@ img { max-width: 100%; }
 
 .circular-image{
   border-radius:  50%;
-}
-
-/* Banner style */
-.banner{
-  margin:auto;
-  text-align:center;
-  background-color:darkorange;
-  height:auto;
 }
 
 /*little Glyphs on the bottom*/
