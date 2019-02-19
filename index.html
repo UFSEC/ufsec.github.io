@@ -1,217 +1,519 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-    <head>
+  <head>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>UF SEC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700">
-        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="src/css/style.css">
+    <title>UF SEC Home</title>
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <!-- CSS -->
+      <link rel="stylesheet" href="css/home.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
 
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="src/img/logo.png">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 
-    </head>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Social Media Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <body>
+    <!-- Footer Social Media Icons -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.0/LineIcons.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="css/line-icons.css">
 
-      <!-- Nav bar -->
-    	<nav class="navbar navbar-default">
-    	  <div class="container-fluid">
-    	    <!-- Brand and toggle get grouped for better mobile display -->
-    	    <div class="navbar-header">
-    	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        		<span class="sr-only">Toggle navigation</span>
-        		<span class="icon-bar"></span>
-        		<span class="icon-bar"></span>
-        		<span class="icon-bar"></span>
-    	      </button>
-    	      <a class="navbar-brand" href="index.html" >
-    	        <img style="max-height: 130%" src="src/img/logo.png">
-    	      </a>
-    	    </div>
+  </head>
 
-    	    <!-- Collect the nav links, forms, and other content for toggling -->
-    	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    	      <ul class="nav navbar-nav navbar-right">
-          		<li><a href="tutorials.html">Previous Tutorials</a></li>
-          		<li><a href="join.html">Join</a></li>
-              <li><a href="signin.html">Sign In</a></li>
-    	      </ul>
-    	    </div><!-- /.navbar-collapse -->
-    	  </div><!-- /.container-fluid -->
-      </nav>
+  <body>
 
-      <div class="banner"></div>
-
-      <!-- About -->
-      <div class="container well about-text">
-        <div class="row col-xs-12">
-            <h2 class="text-center">About</h2>
-          <p>The Software Engineering Club strives to expose beginner Computer Science students to practical software development technologies and concepts they will not learn or be exposed to in their first or second year. These are technologies and skills that are heavily used in the industry and the real world, but not taught in classes. This can benefit the student to get involved with other clubs, hackathons, get a part time internship doing development work, enable them to succeed in interviews, secure summer internships and full time roles, and expand their breadth of knowledge as a developer.</p>
-
-          <p>We also connect students with software companies through networking events and workshops/tutorials put on by companies.</p>
-
-          <p>Feel free to contact any of the officers below for any questions or concerns.</p>
+    <!-- H E A D E R -->
+    <header id="header-wrap">
+        <!-- N A V    B A R -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo/sec_green.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="fas fa-bars"></i></span>
+              <span><i class="menu-hide fas fa-times"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html#about-us"> About Us </a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="events.html"> Events </a></li> -->
+                <!-- <li class="nav-item"><a class="nav-link" href="projects.html"> Projects </a></li> -->
+                <li class="nav-item"><a class="nav-link" href="tutorials.html"> Tutorials </a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#sponsors"> Sponsors </a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#connect"> Join </a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- B A N N E R -->
+        <div id="banner" class="welcome d-flex justify-content-center flex-column">
+          <div class="inner-wrapper mt-auto">
+            <h2 class="head-title"> UF Software Engineering Club</h2>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida in mi ac egestas. Nullam dapibus pulvinar metus, in congue nunc tempor posuere.</p> -->
+          </div>
+          <div class="banner-img img-thumb text-center wow fadeInUp" data-wow-delay="0.6s">
+            <img src="img/banner/home-banner.png" alt="Shard" class="shard">
+          </div>
         </div>
+    </header>
+
+
+
+    <!-- <section>
+      <div class="container gallery-container">
+          <h3 class="section-title wow fadeInUp">Some Pictures From Our Last Event</h3>
+          <div class="tz-gallery">
+              <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="img/meetings/1.jpg">
+                        <img src="img/meetings/1.jpg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/meetings/5.jpg">
+                        <img src="img/meetings/5.jpg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/meetings/1.jpg">
+                        <img src="img/meetings/1.jpg" alt="Tunnel">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="img/meetings/1.jpg">
+                        <img src="img/meetings/1.jpg" alt="Traffic">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/meetings/1.jpg">
+                        <img src="img/meetings/1.jpg" alt="Coast">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/meetings/1.jpg">
+                        <img src="img/meetings/1.jpg" alt="Rails">
+                    </a>
+                </div>
+              </div>
+          </div>
       </div>
-
-      <div class="row" style="margin-top: 30px; margin-bottom: 20px;">
-        <h2 class="text-center">Officers</h2>
-      </div>
+    </section> -->
 
 
-
-      <div class="container officers">
-          <div class="row">
-              <div class="col-md-6 ">
-                <img src="src/img/officers/matthew.png" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Matthew Hannan</h4>
-                  <p>President</p>
-                  <a href="mailto:matthewh2@ufl.edu" data-toggle="tooltip" data-placement="top" title="Email"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-              <div class="col-md-6 ">
-                <img src="src/img/officers/mckenna.jpg" class="img-responsive ">
-                <div class="text-center">
-                  <h4>McKenna Ville</h4>
-                  <p>Vice President</p>
-                  <a href="mailto:mckennaville2015@gmail.com" data-toggle="tooltip" data-placement="top" title="Email"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-          </div>
-
-          <div class="row officer-row">
-              <div class="col-md-4 ">
-                <img src="src/img/officers/ankit.jpg" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Ankit Vishnubhotla</h4>
-                  <p>Treasurer</p>
-                </div>
-              </div>
-              <div class="col-md-4 ">
-                <img src="src/img/officers/daniela.jpg" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Daniela Vertiz</h4>
-                  <p>Secretary</p>
-                  <p>Benton Engineering Council Liaison</p>
-                </div>
-              </div>
-              <div class="col-md-4 ">
-                <img src="src/img/officers/zeeshan.jpg" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Zeeshan Habib</h4>
-                  <p>Head of Outreach</p>
-                </div>
-              </div>
-          </div>
-
-          <div class="row officer-row">
-              <div class="col-md-4 ">
-                <img src="src/img/officers/julian.jpg" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Julian Cordova</h4>
-                  <p>Ambassador</p>
-                </div>
-              </div>
-              <div class="col-md-4 ">
-                <img src="src/img/officers/christian.jpg" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Christian Sarmiento</h4>
-                  <p>Ambassador</p>
-                </div>
-              </div>
-              <div class="col-md-4 ">
-                <img src="src/img/officers/navid.jpg" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Navid Ghomeshi</h4>
-                  <p>Ambassador</p>
-                </div>
-              </div>
-          </div>
-
-          <div class="row officer-row">
-              <div class="col-md-4 ">
-                <img src="src/img/officers/daniel.jpg" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Daniel Garzon</h4>
-                  <p>Technical Officer</p>
-                  <a href="mailto:dgarzonmoreno@ufl.edu" data-toggle="tooltip" data-placement="top" title="Email"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-              <div class="col-md-4 ">
-                <img src="src/img/officers/chimeziri.png" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Chimeziri Mbionwu</h4>
-                  <p>Technical Officer</p>
-                </div>
-              </div>
-              <div class="col-md-4 ">
-                <img src="src/img/officers/alexander.jpg" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Alexander Augustin</h4>
-                  <p>Webmaster</p>
-                </div>
-              </div>
-          </div>
-
-          <div class="row">
-              <div class="col-md-6 ">
-                <img src="src/img/officers/garrett.jpg" class="img-responsive ">
-                <div class="text-center">
-                  <h4>Garrett Kost</h4>
-                  <p></p>
-                  <a href="mailto:matthewh2@ufl.edu" data-toggle="tooltip" data-placement="top" title="Email"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-              <div class="col-md-6 ">
-                <img src="src/img/officers/megan.jpg" class="img-responsive">
-                <div class="text-center">
-                  <h4>Megan Morich</h4>
-                  <p>Graphic Designer</p>
-                  <a href="mailto:mckennaville2015@gmail.com" data-toggle="tooltip" data-placement="top" title="Email"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-          </div>
-
-        </div>
-
-      <!-- Footer stuff -->
+    <section id="about-us" class="wow fadeInUp">
+      <h3 class="section-title ">About Us</h3>
       <div class="container">
-          <div class="row">
-              <div class="col-sm-12 social">
-                <a href="https://www.youtube.com/channel/UCFZc1xBy9_cBRz2zHJ1Y4Qg" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube glyph"></i></a>
-                <a href="https://www.facebook.com/groups/ufsec/" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook glyph"></i></a>
-                <a href="https://github.com/UFSEC" data-toggle="tooltip" data-placement="top" title="Github"><i class="fa fa-github glyph"></i></a>
-              </div>
+          <div class="col-lg-12 mx-auto">
+            <p class="lead text-center">The Software Engineering Club strives to expose beginner Computer Science students
+              to practical software development technologies and concepts they will not learn or be exposed to
+              in their first or second year. These are technologies and skills that are heavily used in the
+              industry and the real world, but not taught in classes. This can benefit the student to get
+              involved with other clubs, hackathons, get a part time internship doing development work, enable
+              them to succeed in interviews, secure summer internships and full time roles, and expand their
+              breadth of knowledge as a developer. We also connect students with software companies through
+              networking events and workshops/tutorials put on by companies. Feel free to contact any of the
+              officers below for any questions or concerns.
+            </p>
           </div>
-          <p class="text-center">Made in Gainesville, FL</p>
+      </div>
+      <div class="connection container">
+        <ul class="socialIcons text-center">
+           <li class="facebook"><a href="https://www.facebook.com/groups/ufsec/"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+           <li class="instagram"><a href="https://www.instagram.com/ufsec/"><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+           <li class="slack"><a href="https://join.slack.com/t/ufsec/shared_invite/enQtNDM0NTc1Mzg2OTE3LTNhOTNiZTc4YzJlNzRmYzBlYTliZGQyZDRmZjdiODc5ZjA1MjU0OTg2MGY0MTc5YmU1OWU0YzA3OGI4N2UwNWI"><i class="fab fa-fw fa-slack-hash"></i>Slack</a></li>
+        </ul>
+        <div class="info action-links slide-in text-center">
+          <a class="btn btn-primary btn-pill align-self-center join-btn" href="#connect">Join Now</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section5">
+    <div class="container">
+      <div class="col-lg-6 col-md-6 col-sm-12 columns">
+        <div class="widget wow fadeInRight" data-effect="slide-left">
+          <!-- <img src="https://previews.123rf.com/images/jemastock/jemastock1706/jemastock170618668/81065248-color-scene-background-with-web-developer-group-men-in-desk-programming-language-vector-illustration.jpg" alt=""> -->
+          <img src="http://www.ravepubs.com/wp-content/uploads/2015/10/programmers-1015.jpg" alt="">
+          <!-- <img src="img/home/what_we_do.png" alt=""> -->
+        </div>
+        <!-- end widget -->
+      </div>
+      <!-- large-6 -->
+      <div class="col-lg-6 col-md-6 col-sm-12 columns">
+        <div class="widget clearfix">
+          <div class="services_lists">
+
+            <div class="services_lists_boxes clearfix">
+              <div class="col-lg-3 col-md-3 col-sm-12">
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInLeft">
+                <div class="servicetitle">
+                  <h4>What Do We Do?</h4>
+                  <hr>
+                </div>
+                <p>We expose a diverse body of Computer Science students
+                to emerging technologies and concepts employed by
+                the software development industry, encouraging the
+                development of skills through a highly collaborative,
+                project-based approach. This jump-starts our members’
+                careers by reinforcing their preparedness for technical
+                interviews, internships, jobs, hackathons, and personal
+                projects.</p>
+              </div>
+            </div>
+            <!-- services_lists_boxes -->
+
+            <div class="services_lists_boxes clearfix">
+              <div class="col-lg-3 col-md-3 col-sm-12">
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="servicetitle">
+                  <h4>Our Impact</h4>
+                  <hr>
+                </div>
+                <p>The University of Florida (UF) community recognizes our
+                impact. With 2,254 Facebook group members, 181 active
+                members on Slack and 119 students in attendance of this
+                year’s first general body meeting, we have documented
+                expansive reach among the range of Computer Science
+                students at the UF.</p>
+              </div>
+            </div>
+            <!-- services_lists_boxes -->
+
+
+          </div>
+          <!-- services_lists -->
+        </div>
+        <!-- end widget -->
+      </div>
+      <!-- large-6 -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end section2 -->
+
+
+
+
+  <!-- B O A R D -->
+  <section class="officers text-center bg-light">
+    <div class="container">
+      <h3 class="section-title wow fadeInUp">Officers</h3>
+
+      <div class="row wow fadeInUp">
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/matthew.jpg" alt="">
+            <h5>Matthew Hannan</h5>
+            <p class="font-weight-light mb-0">President</p>
+            <div id="social-links">
+              <a href="https://www.linkedin.com/in/mattjhannan/"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/matthewhannan"><i class="fab fa-github"></i></a>
+              <a href="http://matthewhannan.com"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/zeeshan.jpg" alt="">
+            <h5>Zeeshan Habbib</h5>
+            <p class="font-weight-light mb-0">Vice President</p>
+            <div id="social-links">
+              <a href="https://www.linkedin.com/in/zeeshan-habib/"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/zhabib3"><i class="fab fa-github"></i></a>
+              <a href="https://zhabib3.github.io/"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/ankit.jpg" alt="">
+            <h5>Ankit Vishnubhotla</h5>
+            <p class="font-weight-light mb-0">Treasurer</p>
+            <div id="social-links">
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-linkedin-in"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-github"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fas fa-globe"></i></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row wow fadeInUp">
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/daniela.jpg" alt="">
+            <h5>Daniela Vertiz</h5>
+            <p class="font-weight-light mb-0">Secretary</p>
+            <div id="social-links">
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-linkedin-in"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-github"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fas fa-globe"></i></a> -->
+            </div>
+          </div>
         </div>
 
-        <!-- Javascript -->
-        <script src="lib/js/jquery-1.11.1.min.js"></script>
-        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-        <script src="src/js/youtube.uploads.js"></script>
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/garrett.jpg" alt="">
+            <h5>Garrett Kost</h5>
+            <p class="font-weight-light mb-0">Secretary</p>
+            <div id="social-links">
+              <a href="http://linkedin.com/in/garrettkost"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/garrettkost"><i class="fab fa-github"></i></a>
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fas fa-globe"></i></a> -->
+            </div>
+          </div>
+        </div>
 
-        <!--[if lt IE 10]>
-            <script src="assets/js/placeholder.js"></script>
-        <![endif]-->
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/navid.jpg" alt="">
+            <h5>Navid Ghomeshi</h5>
+            <p class="font-weight-light mb-0">Ambassador</p>
+            <div id="social-links">
+              <a href="https://www.linkedin.com/in/navidghomeshi/"><i class="fab fa-linkedin-in"></i></a>
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-github"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fas fa-globe"></i></a> -->
+            </div>
+          </div>
+        </div>
 
-    </body>
+      </div>
+
+
+      <div class="row wow fadeInUp">
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/christian.jpg" alt="">
+            <h5>Christian Sarmiento</h5>
+            <p class="font-weight-light mb-0">Head of Outreach</p>
+            <div id="social-links">
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-linkedin-in"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-github"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fas fa-globe"></i></a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/megan.jpg" alt="">
+            <h5>Megan Morich</h5>
+            <p class="font-weight-light mb-0">Graphic Designer</p>
+            <div id="social-links">
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-linkedin-in"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-github"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fas fa-globe"></i></a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/mckenna.jpg" alt="">
+            <h5>McKenna Ville</h5>
+            <p class="font-weight-light mb-0">Graphic Designer</p>
+            <div id="social-links">
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-linkedin-in"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-github"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fas fa-globe"></i></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row wow fadeInUp">
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/daniel.jpg" alt="">
+            <h5>Daniel Garzon-Moreno</h5>
+            <p class="font-weight-light mb-0">Technical Officer</p>
+            <div id="social-links">
+              <a href="https://www.linkedin.com/in/danielgarzonmoreno/"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/dgarzonmoreno"><i class="fab fa-github"></i></a>
+              <a href="https://dgarzonmoreno.github.io"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/chimeziri.jpg" alt="">
+            <h5>Chimeziri Mbionwu</h5>
+            <p class="font-weight-light mb-0">Technical Officer</p>
+            <div id="social-links">
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-linkedin-in"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fab fa-github"></i></a> -->
+              <!-- <a href="https://www.instagram.com/ufsec/"><i class="fas fa-globe"></i></a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="officer-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/officers/alexander.jpg" alt="">
+            <h5>Alexander Augustin</h5>
+            <p class="font-weight-light mb-0">Webmaster</p>
+            <div id="social-links">
+              <a href="https://www.linkedin.com/in/lexaugustin/"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/lexaugustin"><i class="fab fa-github"></i></a>
+              <a href="http://lexaugustin.com/"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+    <!-- How To Connect With US -->
+    <section id="connect">
+      <div class="container">
+
+        <div class="container">
+          <h3 class="section-title wow fadeInUp">How to Join the Software Engineering Club at UF</h3>
+          <p class="wow fadeInUp subtitle" data-wow-delay="0.3s">Joining is simple! Use the links below to join us on Facebook, GatorConnect, and subscribe to our mailing list. UF SEC requires very little commitment, you can show up to whatever meetings, tutorials, events you find interesting.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="table wow fadeInLeft" data-wow-delay="1s">
+              <div class="title">
+                <h3>Facebook</h3>
+              </div>
+              <div class="connect-header">
+                <img src="img/icons/facebook-logo.png"/>
+                <p class="price-value">Join Our Facebook Page</p>
+                <p>Facebook is one of the primary ways we get information out to our members.
+                  Join now to receive event invites, and have access to our news feed!</p>
+              </div>
+              <a href="https://www.facebook.com/groups/ufsec/"><button type="button" class="btn btn-outline-primary">Join</button></a>
+            </div>
+          </div>
+          <div class="slack col-lg-4 col-md-6 col-xs-12 active">
+            <div class="table wow fadeInUp" id="active-tb" data-wow-delay="1s">
+              <div class="title">
+                <h3>Slack</h3>
+              </div>
+               <div class="connect-header">
+                 <img src="img/icons/slack-logo.png"/>
+                 <p class="price-value">Join us on Slack</p>
+                 <p>Slack is the best way to stay in touch with the club. Join our chanel now to receive updats on everything that is happening!</p>
+               </div>
+              <a href="https://join.slack.com/t/ufsec/shared_invite/enQtNDM0NTc1Mzg2OTE3LTNhOTNiZTc4YzJlNzRmYzBlYTliZGQyZDRmZjdiODc5ZjA1MjU0OTg2MGY0MTc5YmU1OWU0YzA3OGI4N2UwNWI"><button type="button" class="btn btn-outline-primary">Join</button></a>
+           </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="table wow fadeInRight" data-wow-delay="1s">
+              <div class="title">
+                <h3>Mailing List</h3>
+              </div>
+               <div class="connect-header">
+                 <img src="img/icons/email-logo.png"/>
+                 <p class="price-value">Sign Up for Our Mailing List</p>
+                 <p>Joining our mailing list is a great way to stay up to date with club events
+                    without having to put in any effort! We'll send you an email whenever we have
+                    any updates on upcomming events, meetings, etc. To join our mailing list, send
+                    an email to "listserv@lists.ufl.edu" with the line "subscribe uf-sec-l
+                    (your first name) (your last name)".</p>
+               </div>
+              <a href="mailto:listserv@lists.ufl.edu" target="_top"><button type="button" class="btn btn-outline-primary">Join</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sponsors">
+      <h3 class="section-title wow fadeInUp">Sponsors</h3>
+      <div class="logo">
+        <img class="wow fadeInUp" src="img/home/sponsors/sticker-mule-inline-light.png" alt="">
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+        <div class="container text-center text-md-left">
+          <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+              <h5 class="text-uppercase">Software Engineering Club</h5>
+              <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+
+              <div class="social-icon">
+    	           <a href="https://www.facebook.com/groups/ufsec/"><i class="fab fa-facebook-f"></i></a>
+                 <a href="https://www.instagram.com/ufsec/"><i class="fab fa-instagram"></i></a>
+    	           <a href="https://join.slack.com/t/ufsec/shared_invite/enQtNDM0NTc1Mzg2OTE3LTNhOTNiZTc4YzJlNzRmYzBlYTliZGQyZDRmZjdiODc5ZjA1MjU0OTg2MGY0MTc5YmU1OWU0YzA3OGI4N2UwNWI"><i class="fab fa-slack"></i></a>
+              </div>
+            </div>
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase">MENU</h5>
+              <ul class="list-unstyled">
+                <li><a href="#about-us">About Us</a></li>
+                <!-- <li><a href="events.html">Events</a></li> -->
+                <!-- <li><a href="projects.html">Projects</a></li> -->
+                <li><a href="tutorials.html">Tutorials</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase">CONNECT</h5>
+              <ul class="list-unstyled">
+                <li><a href="#connect">Join</a></li>
+                <!-- <li><a href="#!">Contact Us</a></li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+          <a href="https://mdbootstrap.com/education/bootstrap/"> ufsec.com</a> All rights reserved.
+        </div>
+    </footer>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+
+  </body>
 
 </html>
