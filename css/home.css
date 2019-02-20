@@ -31,7 +31,7 @@ section {
 .section-title {
   margin-bottom: 50px;
   text-align: center;
-  color: #13684E;
+  color: #7E947F;
   clear: both;
   font-weight: 500;
   line-height: 26px;
@@ -42,7 +42,15 @@ N A V B A R
 ========================================================================== */
 nav {
   background: transparent;
-  /* background-color: rgba(0,0,0,.7); */
+}
+
+nav img{
+  margin: 0 auto;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-on-scroll {
@@ -82,6 +90,13 @@ nav {
   height: 40px;
 }
 
+@media screen and (min-width: 992px) {
+  #navbar1 {
+    /* width: 100%; */
+  }
+}
+
+
 @media screen and (max-width: 991px) {
   nav {
     background-color: #fff;
@@ -115,11 +130,12 @@ BANNER
 
 .welcome h2 {
   font-weight: 500;
-  /* margin-top: 25vh; */
-  margin-bottom: 20px;
   color: #1f2429;
-  line-height: 1;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
+
 
 .banner-img {
   z-index: 99;
@@ -188,15 +204,16 @@ BANNER
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e7ef', endColorstr='#ffffff', GradientType=1);
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 630px) {
   .welcome:before {
-    left: -30%;
+    left: -35%;
   }
 }
 
 @media (max-width: 767.98px) {
-  .welcome:before {
-    left: -35%;
+  .welcome h2 {
+    max-width: 80%;
+    margin: 50px auto;
   }
 }
 
@@ -209,6 +226,10 @@ BANNER
 }
 
 @media (max-width: 991.98px) {
+  .welcome:before {
+    left: -30%;
+  }
+
   .welcome:after {
     right: -17%;
   }
@@ -496,7 +517,6 @@ B O A R D
   text-align: center;
 }
 
-#connect .section-title,
 #connect .subtitle {
   color: #000;
 }
@@ -604,9 +624,6 @@ B O A R D
   box-shadow: 0px 2px 18px 0px rgba(198, 198, 198, 0.3);
 } */
 
-#connect .active {
-
-}
 
 @media screen and (min-width: 1200px){
   #connect .table {
@@ -628,6 +645,11 @@ Sponsors
 ========================================================================== */
 #sponsors .logo {
   text-align: center;
+}
+
+#sponsors .logo img {
+  width: 60%;
+  max-width: 500px;
 }
 
 
