@@ -59,10 +59,6 @@ nav .container {
   animation-duration: 1s;
 }
 
-.nav-on-scroll .nav-item a {
-  color: #747474;
-}
-
 .nav-item {
   padding: 0 20px;
 }
@@ -387,6 +383,10 @@ WHAT WE DO
   #what-we-do img {
     width: 80%;
     text-align: center;
+  }
+
+  #what-we-do .description {
+    width: 90%;
   }
 }
 
