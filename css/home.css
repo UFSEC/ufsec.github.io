@@ -31,7 +31,7 @@ section {
 .section-title {
   margin-bottom: 50px;
   text-align: center;
-  color: #13684E;
+  color: #0021A5;
   clear: both;
   font-weight: 500;
   line-height: 26px;
@@ -50,10 +50,6 @@ nav {
   box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-}
-
-.nav-on-scroll .nav-item a {
-  color: #747474;
 }
 
 .nav-item {
@@ -115,10 +111,14 @@ BANNER
 
 .welcome h2 {
   font-weight: 500;
-  /* margin-top: 25vh; */
-  margin-bottom: 20px;
   color: #1f2429;
-  line-height: 1;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#banner h2 {
+  color: #FA4616;
 }
 
 .banner-img {
@@ -188,15 +188,16 @@ BANNER
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e7ef', endColorstr='#ffffff', GradientType=1);
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 630px) {
   .welcome:before {
-    left: -30%;
+    left: -35%;
   }
 }
 
 @media (max-width: 767.98px) {
-  .welcome:before {
-    left: -35%;
+  .welcome h2 {
+    max-width: 80%;
+    margin: 50px auto;
   }
 }
 
@@ -209,10 +210,15 @@ BANNER
 }
 
 @media (max-width: 991.98px) {
+  .welcome:before {
+    left: -30%;
+  }
+
   .welcome:after {
     right: -17%;
   }
 }
+
 
 /* ==========================================================================
 UPCOMMING EVENTS
@@ -315,6 +321,7 @@ ul.socialIcons {
 
 #about-us .join-btn {
   width: 150px;
+  margin-top: 20px;
   -webkit-border-radius: 12% 50%;
   cursor: pointer;
 }
@@ -323,73 +330,42 @@ ul.socialIcons {
 WHAT WE DO
 ========================================================================== */
 
-.section5 .container {
+#what-we-do .container {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
-.section5 .widget img {
+#what-we-do h4 {
+  color: #FA4616;
+}
+
+#what-we-do img {
   width: 100%;
   max-width: 800px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
-.servicetab .tab-content {
-  padding: 10px 30px;
+#what-we-do .description {
+  width: 70%;
+  max-width: 800px;
 }
 
-.services_lists_boxes {
-  margin: 0;
+#what-we-do .description .item {
+  margin: 25px auto;
 }
 
-.servicebox {
-  margin: 30px 0;
+@media (max-width: 991px) {
+  #what-we-do .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #what-we-do img {
+    width: 80%;
+    text-align: center;
+  }
 }
 
-.servicebox h4 {
-  display: block;
-  width: 100%;
-  font-size: 21px;
-  letter-spacing: -0.65px;
-  font-weight: 500;
-}
-
-.services_lists_boxes_icon:after {
-  color: #fff;
-  z-index: 90;
-  font-size: 14px;
-  font-family: 'FontAwesome';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-}
-
-.services_lists_boxes_icon:after {
-  content: "\f175";
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  margin: 10px 0 0;
-  width: 110px;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-}
-
-.services_lists hr {
-  margin: 10px 0 !important;
-}
-
-.services_lists hr, .servicetitle hr {
-  border: 0 none;
-  height: 3px;
-  margin: 10px auto;
-  width: 80px;
-}
 
 /* ==========================================================================
 PICTURES OF LAST EVENT
@@ -526,7 +502,6 @@ B O A R D
   text-align: center;
 }
 
-#connect .section-title,
 #connect .subtitle {
   color: #000;
 }
@@ -543,7 +518,7 @@ B O A R D
 
 #connect .title h3 {
   text-transform: uppercase;
-  color: #137ED9;
+  color: #FA4616;
   font-size: 15px;
   margin-bottom: 0px;
   font-weight: 700;
@@ -658,6 +633,11 @@ Sponsors
 ========================================================================== */
 #sponsors .logo {
   text-align: center;
+}
+
+#sponsors .logo img {
+  width: 60%;
+  max-width: 500px;
 }
 
 
