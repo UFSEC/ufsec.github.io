@@ -31,7 +31,7 @@ section {
 .section-title {
   margin-bottom: 50px;
   text-align: center;
-  color: #0021A5;
+  color: #13684E;
   clear: both;
   font-weight: 500;
   line-height: 26px;
@@ -50,6 +50,10 @@ nav {
   box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
+}
+
+.nav-on-scroll .nav-item a {
+  color: #747474;
 }
 
 .nav-item {
@@ -111,14 +115,10 @@ BANNER
 
 .welcome h2 {
   font-weight: 500;
-  color: #1f2429;
+  /* margin-top: 25vh; */
   margin-bottom: 20px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#banner h2 {
-  color: #FA4616;
+  color: #1f2429;
+  line-height: 1;
 }
 
 .banner-img {
@@ -188,16 +188,15 @@ BANNER
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e7ef', endColorstr='#ffffff', GradientType=1);
 }
 
-@media (max-width: 630px) {
+@media (max-width: 991.98px) {
   .welcome:before {
-    left: -35%;
+    left: -30%;
   }
 }
 
 @media (max-width: 767.98px) {
-  .welcome h2 {
-    max-width: 80%;
-    margin: 50px auto;
+  .welcome:before {
+    left: -35%;
   }
 }
 
@@ -210,15 +209,10 @@ BANNER
 }
 
 @media (max-width: 991.98px) {
-  .welcome:before {
-    left: -30%;
-  }
-
   .welcome:after {
     right: -17%;
   }
 }
-
 
 /* ==========================================================================
 UPCOMMING EVENTS
@@ -326,6 +320,7 @@ ul.socialIcons {
   cursor: pointer;
 }
 
+
 /* ==========================================================================
 WHAT WE DO
 ========================================================================== */
@@ -336,7 +331,7 @@ WHAT WE DO
 }
 
 #what-we-do h4 {
-  color: #FA4616;
+  color: #000;
 }
 
 #what-we-do img {
@@ -365,7 +360,6 @@ WHAT WE DO
     text-align: center;
   }
 }
-
 
 /* ==========================================================================
 PICTURES OF LAST EVENT
@@ -502,6 +496,7 @@ B O A R D
   text-align: center;
 }
 
+#connect .section-title,
 #connect .subtitle {
   color: #000;
 }
@@ -518,7 +513,7 @@ B O A R D
 
 #connect .title h3 {
   text-transform: uppercase;
-  color: #FA4616;
+  color: #137ED9;
   font-size: 15px;
   margin-bottom: 0px;
   font-weight: 700;
@@ -633,11 +628,6 @@ Sponsors
 ========================================================================== */
 #sponsors .logo {
   text-align: center;
-}
-
-#sponsors .logo img {
-  width: 60%;
-  max-width: 500px;
 }
 
 
