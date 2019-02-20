@@ -10,7 +10,6 @@ body {
   height: 100%;
   margin: 0;
   background: #fff;
-  font-size: 14px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
   -webkit-box-sizing: border-box;
@@ -281,6 +280,10 @@ UPCOMMING EVENTS
 /* ==========================================================================
 About US
 ========================================================================== */
+#about-us {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
 
 ul.socialIcons {
     padding: 0;
@@ -353,6 +356,11 @@ WHAT WE DO
 
 #what-we-do h4 {
   color: #000;
+}
+
+#what-we-do .item p {
+  font-size: 1.1rem;
+  font-weight: 200;
 }
 
 #what-we-do img {
@@ -519,6 +527,8 @@ B O A R D
 
 #connect .subtitle {
   color: #000;
+  font-size: 1.1rem;
+  font-weight: 200;
 }
 
 #connect img {
@@ -538,6 +548,7 @@ B O A R D
   margin-bottom: 0px;
   font-weight: 700;
 }
+
 
 #connect .table {
   margin-top: 30px;
