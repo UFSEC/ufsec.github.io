@@ -46,7 +46,15 @@ N A V B A R
 ========================================================================== */
 nav {
   background: transparent;
-  /* background-color: rgba(0,0,0,.7); */
+}
+
+nav img{
+  margin: 0 auto;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-on-scroll {
@@ -54,10 +62,6 @@ nav {
   box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-}
-
-.nav-on-scroll .nav-item a {
-  color: #747474;
 }
 
 .nav-item {
@@ -86,6 +90,13 @@ nav {
   height: 40px;
 }
 
+@media screen and (min-width: 992px) {
+  #navbar1 {
+    /* width: 100%; */
+  }
+}
+
+
 @media screen and (max-width: 991px) {
   nav {
     background-color: #fff;
@@ -108,112 +119,33 @@ nav {
 /* ==========================================================================
 BANNER
 ========================================================================== */
-.welcome {
-  background: #fff;
-  height: 70vh;
+#banner {
+  height: 700px;
+  background: linear-gradient(to right, #e2e7ef 0%, #ffffff 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#banner .text {
+  width: 80%;
+  max-width: 800px;
+  margin: 100px auto;
   text-align: center;
-  overflow: hidden;
-  position: relative;
-}
-
-.welcome h2 {
-  font-weight: 500;
-  /* margin-top: 25vh; */
-  margin-bottom: 20px;
-  color: #1f2429;
-  line-height: 1;
-}
-
-.banner-img {
-  z-index: 99;
 }
 
 .banner-img img {
-  width: 40%;
-  max-width: 650px;
+  width: 80%;
+  max-height: 80%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
 }
 
-@media (max-width: 575.98px) {
-  .welcome h1 {
-    font-size: 5.90rem;
-  }
-}
-
-.welcome .inner-wrapper {
-  position: relative;
-  max-width: 700px;
-  margin: 0 auto 1.5% auto;
-  z-index: 3;
-}
-
-.welcome .inner-wrapper > p {
-  margin-bottom: 20px;
-  color: #5f738e;
-  transition-delay: 150ms;
-}
-
-.welcome .inner-wrapper > .action-links {
-  transition-delay: 300ms;
-}
-
-.welcome .product-by {
-  position: relative;
-  z-index: 3;
-  margin-bottom: 30px;
-}
-
-.welcome .product-by a:hover {
-  text-decoration: none;
-}
-
-.welcome .product-by p {
-  font-size: 10px;
-  color: #b1b4bd;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-.welcome:before, .welcome:after {
-  content: '';
-  position: absolute;
-  width: 50vw;
-  height: 80vh;
-  -webkit-transform: rotate(-25deg);
-          transform: rotate(-25deg);
-  z-index: 1;
-}
-
-.welcome:before {
-  left: -15vw;
-  top: -30%;
-  background: #fff;
-  background: linear-gradient(to right, #e2e7ef 0%, #ffffff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e7ef', endColorstr='#ffffff', GradientType=1);
-}
-
-@media (max-width: 991.98px) {
-  .welcome:before {
-    left: -30%;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .welcome:before {
-    left: -35%;
-  }
-}
-
-.welcome:after {
-  right: -5vw;
-  top: -15%;
-  background: #ffffff;
-  background: linear-gradient(to right, #ffffff 0%, #e2e7ef 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e7ef', GradientType=1);
-}
-
-@media (max-width: 991.98px) {
-  .welcome:after {
-    right: -17%;
+@media screen and (max-width: 991px) {
+  #banner {
+    height: 88vh;
   }
 }
 
