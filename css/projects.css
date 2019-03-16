@@ -203,6 +203,9 @@ PROJECTS
   }
 }
 
+.card-blog {
+  height: 600px;
+}
 .post-box,
 .form-comments,
 .box-comments,
