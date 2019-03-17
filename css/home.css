@@ -547,10 +547,9 @@ B O A R D
   padding-bottom: 15px;
 }
 
-
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 992px) {
   #connect .table {
-    height: 650px;
+    height: 700px;
   }
 
   .btn-outline-primary {
@@ -559,7 +558,6 @@ B O A R D
     left: 0;
     right: 0;
     margin: 20px auto;
-
   }
 }
 
