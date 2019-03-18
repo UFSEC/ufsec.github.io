@@ -459,3 +459,73 @@ PROJECTS
 	color: #d82a4e;
 	border-bottom: 4px solid #d82a4e;
 }
+
+/* ==========================================================================
+Sponsors
+========================================================================== */
+#sponsors .logo {
+  text-align: center;
+}
+
+#sponsors .logo img {
+  width: 60%;
+  max-width: 500px;
+}
+
+
+
+/*--------- F O O T E R ---------*/
+.page-footer {
+  background-color: #212529;
+  color: #DEDEDE;
+  /* padding: 100px 0; */
+}
+
+.page-footer .container {
+  margin-top: 100px;
+}
+
+.list-unstyled li {
+  line-height: 40px;
+}
+
+.list-unstyled li a {
+  color: #D0D0D0;
+  text-decoration: none;
+  list-style: none;
+  font-weight: lighter;
+}
+
+.social-icon a {
+  color: #FFF;
+  width: 50px;
+  height: 50px;
+  line-height: 48px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #FFF;
+  border-radius: 100%;
+  font-size: 20px;
+  background-color: transparent;
+  margin: 15px 6px 12px 4px;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+}
+
+.social-icon a:hover {
+  color: #212529 !important;
+  background-color: #FFF;
+}
+
+.footer-copyright {
+  margin: 50px auto 0 auto;
+  background-color: #212529;
+  max-width: 60%;
+}
+
+.footer-copyright a {
+  text-decoration: none;
+  list-style: none;
+}
