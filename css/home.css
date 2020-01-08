@@ -11,7 +11,7 @@ body {
   margin: 0;
   background: #fff;
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'roboto' !important;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -30,7 +30,7 @@ section {
 .section-title {
   margin-bottom: 50px;
   text-align: center;
-  color: #7E947F;
+  color: #13684E;
   clear: both;
   font-weight: 500;
   line-height: 26px;
