@@ -148,6 +148,16 @@ BANNER
 /* ==========================================================================
 UPCOMMING EVENTS
 ========================================================================== */
+
+.bg-custom-1{
+    background-color: #05ff82 !important;
+}
+
+.bg-custom-2{
+    background-color: #05ebeb !important;
+}
+
+
 .project .thumbnail{
     border: 0;
     padding: 0;
@@ -186,6 +196,27 @@ UPCOMMING EVENTS
 .event-card {
   display: flex;
   justify-content: center;
+}
+
+/* ==========================================================================
+HOME PAGE - UPCOMMING EVENTS
+========================================================================== */
+
+#upcoming-events {
+    height: 600px;
+    background: linear-gradient(to right, #e2e7ef 0%, #ffffff 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    #upcoming-events .container {
+        min-height: 200px;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 /* ==========================================================================
@@ -255,6 +286,14 @@ ul.socialIcons {
   cursor: pointer;
 }
 
+@media (max-width: 991px) {
+    #upcoming-events .container {
+        min-height: 650px;
+        max-height: ;
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 /* ==========================================================================
 WHAT WE DO
